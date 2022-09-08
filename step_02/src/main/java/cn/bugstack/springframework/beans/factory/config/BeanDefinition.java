@@ -1,7 +1,7 @@
 package cn.bugstack.springframework.beans.factory.config;
 
 /**
- * 这是基础类，用来装Class
+ * 这是Bean封装类 用来存储Class
  */
 @SuppressWarnings({"rawtypes"})
 public class BeanDefinition {
