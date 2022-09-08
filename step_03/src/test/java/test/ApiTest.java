@@ -1,9 +1,9 @@
-package cn.bugstack.springframework.test;
+package test;
 
-import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
-import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
-import cn.bugstack.springframework.test.bean.UserService;
+import beans.factory.config.BeanDefinition;
+import beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
+import test.bean.UserService;
 
 public class ApiTest {
 

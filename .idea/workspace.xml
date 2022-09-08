@@ -4,37 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="第二次完善">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/imitate_spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imitate_spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/main/java/cn/bugstack/springframework/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/main/java/cn/bugstack/springframework/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/test/java/cn/bugstack/springframwork/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/test/java/cn/bugstack/springframwork/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/steap_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/BeansException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/step_02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理">
+      <change afterPath="$PROJECT_DIR$/step_03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/src/test/java/test/bean/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_03/step_03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +63,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/step_02/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/step_03/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step_03/src/test/java" />
+      <recent name="$PROJECT_DIR$/step_03/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/step_02/src/test/java" />
       <recent name="$PROJECT_DIR$/step_02/src/main/java" />
     </key>
@@ -122,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test_BeanFactory" />
         <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
-        <item itemvalue="JUnit.Test.test_BeanFactory" />
-        <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
         <item itemvalue="JUnit.Test.test_BeanFactory" />
         <item itemvalue="JUnit.Test.test_BeanFactory" />
       </list>
@@ -144,6 +139,7 @@
       <workItem from="1662598299993" duration="36000" />
       <workItem from="1662599259211" duration="114000" />
       <workItem from="1662617209190" duration="1835000" />
+      <workItem from="1662624541264" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662553716800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次完善">
+      <created>1662623434511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662623434511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +219,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现" />
     <MESSAGE value="第二次完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次完善" />
+    <MESSAGE value="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理" />
   </component>
 </project>

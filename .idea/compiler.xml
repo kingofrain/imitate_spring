@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="step_03" />
         <module name="steap_01" />
         <module name="step_02" />
       </profile>
@@ -14,6 +15,7 @@
       <module name="imitate_spring" target="1.5" />
       <module name="steap_01" target="16" />
       <module name="step_02" target="16" />
+      <module name="step_03" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
