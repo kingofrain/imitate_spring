@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="这里应该是获取构造方法传参">
+    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="有参和无参对应的处理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/CglibSubclassingInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/SimpleInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/step_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/step_03.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +123,7 @@
       <workItem from="1662598299993" duration="36000" />
       <workItem from="1662599259211" duration="114000" />
       <workItem from="1662617209190" duration="1835000" />
-      <workItem from="1662624541264" duration="3198000" />
+      <workItem from="1662624541264" duration="3757000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -150,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662626130502</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="有参和无参对应的处理">
+      <created>1662633513173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662633513173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +226,7 @@
     <MESSAGE value="第二次完善" />
     <MESSAGE value="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理" />
     <MESSAGE value="这里应该是获取构造方法传参" />
-    <option name="LAST_COMMIT_MESSAGE" value="这里应该是获取构造方法传参" />
+    <MESSAGE value="有参和无参对应的处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="有参和无参对应的处理" />
   </component>
 </project>
