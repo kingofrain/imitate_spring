@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理">
-      <change afterPath="$PROJECT_DIR$/step_03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/BeansException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/src/test/java/test/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_03/step_03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/InstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +120,7 @@
       <workItem from="1662598299993" duration="36000" />
       <workItem from="1662599259211" duration="114000" />
       <workItem from="1662617209190" duration="1835000" />
-      <workItem from="1662624541264" duration="1195000" />
+      <workItem from="1662624541264" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -155,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662623434511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理">
+      <created>1662625770719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662625770719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
