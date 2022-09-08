@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="" />
+    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="第二次完善">
+      <change afterPath="$PROJECT_DIR$/imitate_spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/bean/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_02/step_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -20,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="byx" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,13 +59,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/step_02/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step_02/src/test/java" />
+      <recent name="$PROJECT_DIR$/step_02/src/main/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -70,6 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.Test.test_BeanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +114,7 @@
       <workItem from="1662553859484" duration="613000" />
       <workItem from="1662598299993" duration="36000" />
       <workItem from="1662599259211" duration="114000" />
+      <workItem from="1662617209190" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -105,9 +134,51 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="byx" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
+        <entry key="ecd7d1af-9399-4e5c-901b-477b6b6808e7">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ecd7d1af-9399-4e5c-901b-477b6b6808e7" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -115,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现" />
+    <MESSAGE value="第二次完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次完善" />
   </component>
 </project>

@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>steap_01</module>
+        <module>step_02</module>
     </modules>
 
     <dependencies>
