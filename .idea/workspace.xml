@@ -4,37 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="第二次完善">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/imitate_spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imitate_spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/main/java/cn/bugstack/springframework/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/main/java/cn/bugstack/springframework/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/test/java/cn/bugstack/springframwork/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/src/test/java/cn/bugstack/springframwork/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steap_01/steap_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/BeansException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/src/test/java/cn/bugstack/springframework/test/bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_02/step_02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="一些逻辑的梳理">
+      <change afterPath="$PROJECT_DIR$/step_04/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/test/java/test/bean/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/test/java/test/bean/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,18 +45,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/step_02/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/step_03/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step_03/src/test/java" />
+      <recent name="$PROJECT_DIR$/step_03/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/step_02/src/test/java" />
       <recent name="$PROJECT_DIR$/step_02/src/main/java" />
     </key>
@@ -87,7 +69,36 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory">
+  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory (1)">
+    <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <module name="step_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="step_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="step_02" />
       <extension name="coverage">
@@ -122,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (1)" />
+        <item itemvalue="应用程序.ApiTest" />
         <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
         <item itemvalue="JUnit.Test.test_BeanFactory" />
-        <item itemvalue="JUnit.Test.test_BeanFactory" />
-        <item itemvalue="JUnit.Test.test_BeanFactory" />
-        <item itemvalue="JUnit.Test.test_BeanFactory" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +155,8 @@
       <workItem from="1662598299993" duration="36000" />
       <workItem from="1662599259211" duration="114000" />
       <workItem from="1662617209190" duration="1835000" />
+      <workItem from="1662624541264" duration="7708000" />
+      <workItem from="1662684113872" duration="8198000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -152,7 +165,56 @@
       <option name="project" value="LOCAL" />
       <updated>1662553716800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次完善">
+      <created>1662623434511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662623434511</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理">
+      <created>1662625770719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662625770719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="这里应该是获取构造方法传参">
+      <created>1662626130502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662626130502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="有参和无参对应的处理">
+      <created>1662633513173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662633513173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="调用了Enhancer类来实现 没了解过这个类">
+      <created>1662634068146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662634068146</updated>
+    </task>
+    <task id="LOCAL-00007" summary="调用了Enhancer类来实现 没了解过这个类">
+      <created>1662690220670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662690220670</updated>
+    </task>
+    <task id="LOCAL-00008" summary="一些逻辑的梳理">
+      <created>1662691622193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662691622193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +278,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现" />
     <MESSAGE value="第二次完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次完善" />
+    <MESSAGE value="第三次完善，在第二次中，我们只能应用没有构造方法的类，在这里，我们主要解决有构造方法时工厂怎么处理" />
+    <MESSAGE value="这里应该是获取构造方法传参" />
+    <MESSAGE value="有参和无参对应的处理" />
+    <MESSAGE value="调用了Enhancer类来实现 没了解过这个类" />
+    <MESSAGE value="一些逻辑的梳理" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些逻辑的梳理" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

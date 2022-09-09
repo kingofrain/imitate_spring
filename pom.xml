@@ -11,6 +11,8 @@
     <modules>
         <module>steap_01</module>
         <module>step_02</module>
+        <module>step_03</module>
+        <module>step_04</module>
     </modules>
 
     <dependencies>

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/imitate_spring.iml" filepath="$PROJECT_DIR$/imitate_spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/steap_01/steap_01.iml" filepath="$PROJECT_DIR$/steap_01/steap_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/step_02/step_02.iml" filepath="$PROJECT_DIR$/step_02/step_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step_03/step_03.iml" filepath="$PROJECT_DIR$/step_03/step_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step_04/step_04.iml" filepath="$PROJECT_DIR$/step_04/step_04.iml" />
     </modules>
   </component>
 </project>
