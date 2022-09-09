@@ -11,6 +11,11 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
     private final Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
 
+    /**
+     * 这里是注册 bean，被注册的bean会被直接放在Map中。
+     * @param beanName
+     * @param beanDefinition
+     */
     @Override
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(beanName, beanDefinition);

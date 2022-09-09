@@ -7,6 +7,12 @@ import beans.factory.config.BeanDefinition;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
+    /**
+     * 这里是无参的获取bean 如果单例中有就返回单例的 如果没有 就在单例中创建
+     * @param name
+     * @return
+     * @throws BeansException
+     */
     @Override
     public Object getBean(String name) throws BeansException {
         Object bean = getSingleton(name);

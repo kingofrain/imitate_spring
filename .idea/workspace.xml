@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38e7bd0-6639-465f-9558-627026e99d80" name="Changes" comment="调用了Enhancer类来实现 没了解过这个类">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step_03/src/main/java/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1662599259211" duration="114000" />
       <workItem from="1662617209190" duration="1835000" />
       <workItem from="1662624541264" duration="7708000" />
-      <workItem from="1662684113872" duration="3684000" />
+      <workItem from="1662684113872" duration="4810000" />
     </task>
     <task id="LOCAL-00001" summary="初次建立项目，以及尝试最基础的 Bean 和 BeanFactory实现">
       <created>1662553716800</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662634068146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="调用了Enhancer类来实现 没了解过这个类">
+      <created>1662690220670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662690220670</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,5 +273,16 @@
     <MESSAGE value="有参和无参对应的处理" />
     <MESSAGE value="调用了Enhancer类来实现 没了解过这个类" />
     <option name="LAST_COMMIT_MESSAGE" value="调用了Enhancer类来实现 没了解过这个类" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/step_03/src/test/java/test/ApiTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -10,6 +10,13 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
     private InstantiationStrategy instantiationStrategy = new CglibSubclassingInstantiationStrategy();
 
+    /**
+     * 在这里我们注册单例
+     * @param beanName
+     * @param beanDefinition
+     * @return
+     * @throws BeansException
+     */
     @Override
     protected Object createBean(String beanName, BeanDefinition beanDefinition) throws BeansException {
         Object bean = null;
